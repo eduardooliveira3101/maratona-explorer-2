@@ -49,9 +49,9 @@ html {
 
 body.original {
 
-    --bg-color: rgb(190, 190, 190); 
+    --bg-color: rgb(255, 255, 255); 
     --text-color: rgb(0, 0, 0);
-    --primary-color: rgb(1, 1, 168);
+    --primary-color: rgb(1, 1, 230);
     --primary-color-dark: rgb(0, 0, 51); 
 
 
@@ -85,8 +85,8 @@ img.avatar {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: var(--primary-color-dark) 2px solid;
-    padding: var(--primary-color) 2px solid;
+    border: var(--primary-color) 2px solid;
+    padding: 2px solid;
 
     
 }
