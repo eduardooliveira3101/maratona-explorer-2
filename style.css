@@ -1,0 +1,186 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    --bg-color: rgb(0, 0, 0);
+    --text-color: rgb(0, 0, 0);
+    --primary-color: rgb(0, 0, 189);
+    --primary-color-dark: rgb(0, 0, 65); 
+}
+
+
+
+
+ body {
+
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Barlow Condensed', sans-serif;
+    
+ }
+
+
+
+
+ body.dark {
+
+    --bg-color: rgb(0, 8, 77); 
+    --text-color: rgb(255, 255, 255);
+ }
+
+
+
+ body.pink {
+
+    --bg-color: rgb(255, 255, 255);
+    --text-color: rgb(0, 0, 0);
+    --primary-color: rgb(228, 0, 125); 
+    --primary-color-dark: rgb(139, 0, 109); 
+    
+
+ }
+
+
+body.original {
+
+    --bg-color: rgb(190, 190, 190); 
+    --text-color: rgb(0, 0, 0);
+    --primary-color: rgb(1, 1, 168);
+    --primary-color-dark: rgb(0, 0, 51); 
+
+
+}
+
+
+
+.container {
+
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+}
+
+
+
+
+
+img {
+
+width: 100%;
+
+}
+
+
+
+
+
+img.avatar {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: var(--primary-color-dark) 2px solid;
+    padding: var(--primary-color) 2px solid;
+
+    
+}
+
+
+
+
+
+ul {
+
+    list-style: none;
+    margin: 35px;
+}
+
+
+
+
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 8px ;
+    font-size: 30px;
+
+}
+
+
+
+
+
+ul li a {
+
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color-dark);
+    margin-bottom: 7px;
+    border-radius: 9px;
+    transition: background 400ms;
+}
+
+
+
+
+
+ul li a:hover {
+
+background: rgb(2, 2, 221);
+
+    }
+
+ 
+    
+
+
+p a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    color: var(--text-color);
+   
+    
+}
+
+p a:hover {
+    opacity: 0.5;
+    
+}
+
+
+
+
+footer {
+
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+
+footer:hover {
+
+    color:blue;
+}
+
+
+
+
+
+
+
+a {
+
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    font-size: 13px;
+}
