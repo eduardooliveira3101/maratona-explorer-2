@@ -8,10 +8,10 @@
 
 
 html {
-    --bg-color: rgb(0, 0, 0);
-    --text-color: rgb(0, 0, 0);
-    --primary-color: rgb(0, 0, 189);
-    --primary-color-dark: rgb(0, 0, 65); 
+    --bg-color: white;
+    --text-color: white;
+    --primary-color: white;
+    --primary-color-dark: white; 
 }
 
 
@@ -25,27 +25,7 @@ html {
     
  }
 
-
-
-
- body.dark {
-
-    --bg-color: rgb(0, 8, 77); 
-    --text-color: rgb(255, 255, 255);
- }
-
-
-
- body.pink {
-
-    --bg-color: rgb(255, 255, 255);
-    --text-color: rgb(0, 0, 0);
-    --primary-color: rgb(228, 0, 125); 
-    --primary-color-dark: rgb(139, 0, 109); 
-    
-
- }
-
+ 
 
 body.original {
 
@@ -161,7 +141,7 @@ p a:hover {
 footer {
 
     font-weight: 500;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
